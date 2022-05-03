@@ -7,4 +7,3 @@ services:
     stop_grace_period: 1m
     ports:
       - 3000:3000
-    environment:
