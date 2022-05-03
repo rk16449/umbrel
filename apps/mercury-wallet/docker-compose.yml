@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  web:
+    image: razador/mercurywallet:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 3000:3000
+    environment:
